@@ -27,11 +27,8 @@ const Main = ({wallet,contract,setContract,setWallet}) => {
 			<ContainerLeftData>
 				<ContainerLeftCard/>
 			</ContainerLeftData>
-			
 			</ContainerLeft>
-			
-				<Background />
-			
+			<Background />
 		</MainContainer>
 		<MintContainer ref={mint} >
 			<Mint  wallet={wallet} contract={contract} setWallet={setWallet} setContract={setContract}/>
@@ -82,14 +79,11 @@ const ContainerLeft = style.div`
 		}
 	}
 	
+`
 
-`
-const ContainerRight = style.div`
-	
-`
 
 const ContainerLeftData = style.div`
-	margin-top:3em;
+	margin-top:1.5em;
 	display:flex;
 	align-items:center;
 	gap:50px;

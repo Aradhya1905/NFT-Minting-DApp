@@ -1,0 +1,28 @@
+*,body {
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Press Start 2P', cursive;
+	letter-spacing: 0.1em;
+	color:rgba(219, 229, 237, 0.878);
+	
+}
+
+.App{
+	padding:0em 8em;
+	background-image: linear-gradient(to right bottom, #0f172a, #13162e, #1a1332, #220f33, #2c0932);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: none;
+}
+
+@media only screen and (max-width: 768px)  {
+	.App {
+		padding:1em;
+		font-size: 0.8em;
+		
+	}
+}

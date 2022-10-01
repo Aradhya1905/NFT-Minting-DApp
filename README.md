@@ -47,4 +47,4 @@ Please make sure to include RPC url and Private key in Hardhat config file.
 
 If smart contract is deployed to different test network other than Rinkeby make sure to change the ChainID in "Mint.jsx" file and include the new contract ABI in the Frontend --src folder
 
-## App contains some messy code ,Please anybody is free to refactor the code to meet their needs. 
+
